@@ -9,9 +9,26 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <section className="bg-blue-900 min-h-screen">
-          <h1 className="text-3xl text-center text-stone-300">um hello</h1>
+      <main className="bg-white px-10">
+        <section className="min-h-screen">
+          <nav className="py-5 mb-12 flex justify-between">
+            <h1 className="text-md">David Ordovskiy | OrdSec</h1>
+            <ul className="flex items-center">
+              <li>Bio</li>
+              <li><a 
+                className="
+                   bg-gradient-to-r
+                  from-cyan-500
+                  to-teal-500
+                  text-white 
+                  px-4 
+                  py-2 
+                  rounded-md 
+                  ml-8
+                " 
+                href="#">Resume</a></li>
+            </ul>
+          </nav>
         </section>
       </main>
     </div>
