@@ -1,3 +1,9 @@
+import { 
+  AiFillLinkedin, 
+  AiOutlineGithub, 
+  AiFillInstagram 
+} from 'react-icons/ai';
+
 import Head from 'next/head';
 
 export default function Home() {
@@ -24,11 +30,21 @@ export default function Home() {
                   px-4 
                   py-2 
                   rounded-md 
-                  ml-8
+                  ml-4
                 " 
                 href="#">Resume</a></li>
             </ul>
           </nav>
+          <div className="text-center p-10">
+            <h2 className="text-4xl py-2 text-teal-600 font-medium">David Ordovskiy</h2>
+            <h3 className="text-xl py-2">Aspiring Cybersecurity Professional</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">Brief bio here</p>
+          </div>
+          <div className="text-4xl flex justify-center gap-12 py-3 text-gray-700">
+            <AiFillLinkedin />
+            <AiOutlineGithub />
+            <AiFillInstagram />
+          </div>
         </section>
       </main>
     </div>
