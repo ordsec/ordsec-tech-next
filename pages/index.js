@@ -3,6 +3,8 @@ import {
   AiOutlineGithub, 
   AiFillInstagram 
 } from 'react-icons/ai';
+import Image from "next/image";
+import headshot from "../public/img/headshot.jpg";
 
 import Head from 'next/head';
 
@@ -35,6 +37,9 @@ export default function Home() {
                 href="#">Resume</a></li>
             </ul>
           </nav>
+          <div className="flex justify-center">
+            <Image className="rounded-r-full w-60" src={headshot} />
+          </div>
           <div className="text-center p-10">
             <h2 className="text-4xl py-2 text-teal-600 font-medium">David Ordovskiy</h2>
             <h3 className="text-xl py-2">Aspiring Cybersecurity Professional</h3>
