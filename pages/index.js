@@ -17,9 +17,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white min-h-screen">
+      <Navbar />
+      <main className="bg-white min-h-screen md:px-20 lg:px-40">
         <section>
-          <Navbar />
+          
 
           {/* headshot, header, social */}
 
@@ -27,8 +28,8 @@ export default function Home() {
             <img className="rounded-r-full w-60" src="/img/headshot.jpg" alt="" />
           </div>
           <div className="text-center p-10">
-            <h2 className="text-4xl py-2 text-teal-600 font-medium">David Ordovskiy</h2>
-            <h3 className="text-xl py-2">Aspiring Cybersecurity Professional</h3>
+            <h2 className="text-4xl py-2 text-teal-600 font-medium md:text-5xl">David Ordovskiy</h2>
+            <h3 className="text-xl py-2 md:text-3xl">Aspiring Cybersecurity Professional</h3>
             <p className="text-md py-5 leading-8 text-gray-800">Brief bio here</p>
           </div>
           {/* TODO: break out social to a component, add links */}
@@ -40,7 +41,7 @@ export default function Home() {
         </section>
 
         <section className="m-8">
-          <h2 className="text-2xl py-1 text-center">My Skills</h2>
+          <h2 className="text-2xl py-1 text-center md:text-3xl">My Tech Skills</h2>
           <div className="shadow-lg p-4 rounded-xl my-8">
             <h3 className="text-xl">Offensive Security</h3>
             <ul className="list-disc mx-4">
