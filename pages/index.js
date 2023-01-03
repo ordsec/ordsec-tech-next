@@ -16,8 +16,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white">
-        <section className="min-h-screen">
+      <main className="bg-white min-h-screen">
+        <section>
           <Navbar />
 
           {/* headshot, header, social */}
@@ -30,15 +30,53 @@ export default function Home() {
             <h3 className="text-xl py-2">Aspiring Cybersecurity Professional</h3>
             <p className="text-md py-5 leading-8 text-gray-800">Brief bio here</p>
           </div>
-          <div className="text-4xl flex justify-center gap-12 py-3 text-gray-700">
+          <div className="text-4xl flex justify-center gap-12 text-gray-700">
             <AiFillLinkedin />
             <AiOutlineGithub />
             <AiFillInstagram />
           </div>
         </section>
 
-        <section>
-          
+        <section className="m-8">
+          <h2 className="text-2xl py-1 text-center">My Skills</h2>
+          <div>
+            <h3 className="text-xl">Offensive Security</h3>
+            <ul className="list-disc mx-4">
+              <li>Web app penetration testing: IDOR, XSS, CSRF, SSRF, SQLi, path traversal, hash cracking, brute-forcing passwords, directory busting</li>
+              <li>Knowledge of tools: nmap, Nessus, nikto, Wireshark, Burp Suite, Metasploit, Hydra, John the Ripper, ffuf, DirBuster</li>
+              <li>Protocol enumeration and exploitation: FTP, Telnet, SSH, NFS, SMB, MySQL</li>
+              <li>Various OSINT techniques</li>
+              <li>Linux privilege escalation</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-xl">Defensive Security</h3>
+            <ul className="list-disc mx-4">
+              <li>Endpoint security and hardening: firewalls, antiviruses, anti-malware; monitoring with Snort</li>
+              <li>ELK Stack</li>
+              <li>IoC analysis, log analysis, threat analysis, threat research</li>
+              <li>Knowledge of OWASP Top 10, Lockheed Martin Cyber Kill Chain, Diamond Model, MITRE ATT&CK</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-xl">IT</h3>
+            <ul className="list-disc mx-4">
+              <li>Extensive OS knowledge: Linux, Windows, MacOS</li>
+              <li>OS Virtualization</li>
+              <li>Cloud services: Linode, AWS</li>
+              <li>LAN management, subnetting</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-xl">Programming</h3>
+            <ul className="list-disc mx-4">
+              <li>Experience with programming languages: Python, JavaScript, Ruby, C, BASH</li>
+              <li>Full-stack application development: Next.js, React, MERN Stack, SCSS, Tailwind</li>
+              <li>Scripting in Python, BASH</li>
+              <li>Data structures and algorithms</li>
+              <li>TDD, test suites with RSpec and Jest</li>
+            </ul>
+          </div>
         </section>
       </main>
     </div>
