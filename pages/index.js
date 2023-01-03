@@ -7,6 +7,7 @@ import Head from "next/head";
 
 import Navbar from "../components/Navbar";
 
+// Styling TODO: add colours to headers, add background, add wrappers for sections
 export default function Home() {
   return (
     <div>
@@ -30,6 +31,7 @@ export default function Home() {
             <h3 className="text-xl py-2">Aspiring Cybersecurity Professional</h3>
             <p className="text-md py-5 leading-8 text-gray-800">Brief bio here</p>
           </div>
+          {/* TODO: break out social to a component, add links */}
           <div className="text-4xl flex justify-center gap-12 text-gray-700">
             <AiFillLinkedin />
             <AiOutlineGithub />
@@ -39,7 +41,7 @@ export default function Home() {
 
         <section className="m-8">
           <h2 className="text-2xl py-1 text-center">My Skills</h2>
-          <div>
+          <div className="shadow-lg p-4 rounded-xl my-8">
             <h3 className="text-xl">Offensive Security</h3>
             <ul className="list-disc mx-4">
               <li>Web app penetration testing: IDOR, XSS, CSRF, SSRF, SQLi, path traversal, hash cracking, brute-forcing passwords, directory busting</li>
@@ -49,7 +51,7 @@ export default function Home() {
               <li>Linux privilege escalation</li>
             </ul>
           </div>
-          <div>
+          <div className="shadow-lg p-4 rounded-xl my-8">
             <h3 className="text-xl">Defensive Security</h3>
             <ul className="list-disc mx-4">
               <li>Endpoint security and hardening: firewalls, antiviruses, anti-malware; monitoring with Snort</li>
@@ -58,16 +60,17 @@ export default function Home() {
               <li>Knowledge of OWASP Top 10, Lockheed Martin Cyber Kill Chain, Diamond Model, MITRE ATT&CK</li>
             </ul>
           </div>
-          <div>
+          <div className="shadow-lg p-4 rounded-xl my-8">
             <h3 className="text-xl">IT</h3>
             <ul className="list-disc mx-4">
               <li>Extensive OS knowledge: Linux, Windows, MacOS</li>
               <li>OS Virtualization</li>
               <li>Cloud services: Linode, AWS</li>
               <li>LAN management, subnetting</li>
+              <li>App deployment: AWS, Heroku; Ansible, Travis CI</li>
             </ul>
           </div>
-          <div>
+          <div className="shadow-lg p-4 rounded-xl my-8">
             <h3 className="text-xl">Programming</h3>
             <ul className="list-disc mx-4">
               <li>Experience with programming languages: Python, JavaScript, Ruby, C, BASH</li>
@@ -75,6 +78,7 @@ export default function Home() {
               <li>Scripting in Python, BASH</li>
               <li>Data structures and algorithms</li>
               <li>TDD, test suites with RSpec and Jest</li>
+              <li>VCS: Git, GitHub</li>
             </ul>
           </div>
         </section>
