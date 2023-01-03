@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import Link from 'next/link';
 
 const Navbar = () => {
@@ -6,7 +7,7 @@ const Navbar = () => {
       <h1 className="text-md"><Link href="/">David Ordovskiy | OrdSec</Link></h1>
       <ul className="flex items-center">
         <li><Link href="/bio">Bio</Link></li>
-        <li><Link
+        <li><a
           className="
                    bg-gradient-to-r
                   from-cyan-500
@@ -17,7 +18,7 @@ const Navbar = () => {
                   rounded-md 
                   ml-4
                 "
-          href="#">Resume</Link></li>
+          href="https://rebrand.ly/px3uw5m" target="_xyrblank">Resume</a></li>
       </ul>
     </nav>
   );
