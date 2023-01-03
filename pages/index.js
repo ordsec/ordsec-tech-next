@@ -3,10 +3,7 @@ import {
   AiOutlineGithub, 
   AiFillInstagram 
 } from "react-icons/ai";
-import Image from "next/image";
 import Head from "next/head";
-
-import headshot from "../public/img/headshot.jpg";
 
 import Navbar from "../components/Navbar";
 
@@ -26,7 +23,7 @@ export default function Home() {
           {/* headshot, header, social */}
 
           <div className="flex justify-center">
-            <Image className="rounded-r-full w-60" src={headshot} />
+            <img className="rounded-r-full w-60" src="/img/headshot.jpg" alt="" />
           </div>
           <div className="text-center p-10">
             <h2 className="text-4xl py-2 text-teal-600 font-medium">David Ordovskiy</h2>
