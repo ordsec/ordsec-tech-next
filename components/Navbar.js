@@ -18,7 +18,7 @@ const Navbar = () => {
                   rounded-md 
                   ml-4
                 "
-          href="https://rebrand.ly/px3uw5m" target="_xyrblank">Resume</a></li>
+          href="https://rebrand.ly/px3uw5m" target="_blank">Resume</a></li>
       </ul>
     </nav>
   );

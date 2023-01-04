@@ -1,3 +1,5 @@
+import Typewriter from 'typewriter-effect';
+
 import { 
   AiFillLinkedin, 
   AiOutlineGithub, 
@@ -19,9 +21,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <main className="bg-white min-h-screen md:px-20 lg:px-40">
-        <section>
-          
 
+        <section>
           {/* headshot, header, social */}
 
           <div className="flex justify-center">
@@ -29,8 +30,25 @@ export default function Home() {
           </div>
           <div className="text-center p-10">
             <h2 className="text-4xl py-2 text-teal-600 font-medium md:text-5xl">David Ordovskiy</h2>
-            <h3 className="text-xl py-2 md:text-3xl">Aspiring Cybersecurity Professional</h3>
-            <p className="text-md py-5 leading-8 text-gray-800">Brief bio here</p>
+            <h3 className="text-xl py-2 md:text-3xl">
+              <Typewriter 
+                options={{
+                  strings: [
+                    'Aspiring Cybersecurity Professional',
+                    'Programmer',
+                    'Classical musician',
+                    'Photographer',
+                    'Educator',
+                    'Shiba Inu dad'
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  pauseFor: 2500,
+                  delay: 75,
+                  deleteSpeed: 15
+                }}
+              />
+            </h3>
           </div>
           {/* TODO: break out social to a component, add links */}
           <div className="text-4xl flex justify-center gap-12 text-gray-700">
