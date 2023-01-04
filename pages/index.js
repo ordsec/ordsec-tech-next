@@ -8,6 +8,7 @@ import {
 import Head from "next/head";
 
 import Navbar from "../components/Navbar";
+import Social from "../components/Social";
 import LinkButton from "../components/LinkButton";
 
 // Styling TODO: add colours to headers, add background, add wrappers for sections
@@ -55,11 +56,12 @@ export default function Home() {
           </div>
           
           {/* TODO: break out social to a component, add links */}
-          <div className="text-3xl flex justify-center gap-12 text-gray-700 my-4">
+          {/* <div className="text-3xl flex justify-center gap-12 text-gray-700 my-4">
             <AiFillLinkedin />
             <AiOutlineGithub />
             <AiFillInstagram />
-          </div>
+          </div> */}
+          <Social />
         </section>
 
         <section className="m-8">
