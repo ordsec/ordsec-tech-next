@@ -8,6 +8,7 @@ import {
 import Head from "next/head";
 
 import Navbar from "../components/Navbar";
+import LinkButton from "../components/LinkButton";
 
 // Styling TODO: add colours to headers, add background, add wrappers for sections
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
           </div>
           <div className="text-center p-10">
             <h2 className="text-4xl py-2 text-teal-600 font-medium md:text-5xl">David Ordovskiy</h2>
-            <h3 className="text-xl py-2 md:text-3xl">
+            <h3 className="text-xl py-2 mb-4 md:text-3xl">
               <Typewriter 
                 options={{
                   strings: [
@@ -49,6 +50,7 @@ export default function Home() {
                 }}
               />
             </h3>
+            <LinkButton dest="/bio" value="Find out more" newTab={false} />
           </div>
           {/* TODO: break out social to a component, add links */}
           <div className="text-4xl flex justify-center gap-12 text-gray-700">
