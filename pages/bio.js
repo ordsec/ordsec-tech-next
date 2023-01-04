@@ -14,7 +14,9 @@ const Bio = () => {
           <p className="pb-3 leading-5">In all of the work I do, I have a creative approach to problem solving, which comes from my arts education, combined with a precise algorithmic approach that I have honed over the years of learning programming. I have a highly curious mind that always seeks a thorough understanding of what I am working with, and I firmly believe that a perfect balance can be found between versatility and high-level skill.</p>
           <p className="pb-3 leading-5">A few more facts about me. I was born in Ukraine, and I moved to the US at age 17 to attend high school. I have a Bachelor&apos;s and Master&apos;s degrees in flute performance from the Mannes School of Music at The New School. In addition to music and tech, I have almost 20 years of experience in photography, with my current passion being vintage cameras and analog photography. I enjoy road cycling, hiking, movies, and books, and I live in Brooklyn, NY, with my wife and our shiba inu by the name of Simba, who is goodest boy ever.</p>
         </div>
-        
+        <div className="flex justify-center my-4">
+          <img className="rounded-full max-w-xs" src="/img/simba.jpg" alt="" />
+        </div>
       </div>
     </div>
   );

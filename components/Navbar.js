@@ -9,9 +9,9 @@ const Navbar = () => {
       <h1 className="text-md font-semibold md:text-xl"><Link href="/">David Ordovskiy | OrdSec</Link></h1>
       <ul className="flex items-center">
         <li><Link href="/bio">Bio</Link></li>
-          <li className="ml-4">
-            <LinkButton dest="https://rebrand.ly/px3uw5m" value="Resume" newTab={true} />
-          </li>
+        <li className="ml-4">
+          <LinkButton dest="https://rebrand.ly/px3uw5m" value="Resume" newTab={true} />
+        </li>
       </ul>
     </nav>
   );

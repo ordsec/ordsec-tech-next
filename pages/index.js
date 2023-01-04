@@ -1,10 +1,5 @@
 import Typewriter from 'typewriter-effect';
 
-import { 
-  AiFillLinkedin, 
-  AiOutlineGithub, 
-  AiFillInstagram 
-} from "react-icons/ai";
 import Head from "next/head";
 
 import Navbar from "../components/Navbar";
