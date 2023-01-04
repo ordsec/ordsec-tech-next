@@ -19,6 +19,8 @@
 .DS_Store
 *.pem
 spec.node_modules
+todo.md
+out.zip
 
 # debug
 npm-debug.log*
