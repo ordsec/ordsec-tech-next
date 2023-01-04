@@ -21,7 +21,7 @@ export default function Home() {
 
         <section>
           {/* headshot, header, social */}
-          <div className="flex flex-col lg:flex-row lg:flex-wrap lg:justify-between">
+          <div className="flex flex-col lg:flex-row lg:flex-wrap lg:justify-between items-center">
             <div className="flex justify-center lg:basis-1/3 lg:flex-1">
               <img className="rounded-r-full w-60 md:w-80" src="/img/headshot.jpg" alt="" />
             </div>
