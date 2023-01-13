@@ -50,12 +50,6 @@ export default function Home() {
             </div>
           </div>
           
-          {/* TODO: break out social to a component, add links */}
-          {/* <div className="text-3xl flex justify-center gap-12 text-gray-700 my-4">
-            <AiFillLinkedin />
-            <AiOutlineGithub />
-            <AiFillInstagram />
-          </div> */}
           <Social />
         </section>
 
@@ -68,7 +62,7 @@ export default function Home() {
                 <li>Web app penetration testing: IDOR, XSS, CSRF, SSRF, SQLi, path traversal, hash cracking, brute-forcing passwords, directory busting</li>
                 <li>Knowledge of tools: nmap, Nessus, nikto, Wireshark, Burp Suite, Metasploit, Hydra, John the Ripper, ffuf, DirBuster</li>
                 <li>Protocol enumeration and exploitation: FTP, Telnet, SSH, NFS, SMB, MySQL</li>
-                <li>Various OSINT techniques</li>
+                <li>Various OSINT techniques, Google dorking</li>
                 <li>Linux privilege escalation</li>
               </ul>
             </div>
@@ -79,6 +73,8 @@ export default function Home() {
                 <li>ELK Stack</li>
                 <li>IoC analysis, log analysis, threat analysis, threat research</li>
                 <li>Knowledge of OWASP Top 10, Lockheed Martin Cyber Kill Chain, Diamond Model, MITRE ATT&CK</li>
+                <li>Knowledge of security frameworks: NIST, ISO 27001, PCI DSS</li>
+                <li>Password management (LastPass); experience with PKI</li>
               </ul>
             </div>
             <div className="bg-white shadow-lg p-4 rounded-xl basis-1/3 flex-1">
@@ -87,6 +83,8 @@ export default function Home() {
                 <li>Extensive OS knowledge: Linux, Windows, MacOS</li>
                 <li>OS Virtualization</li>
                 <li>Cloud services: Linode, AWS</li>
+                <li>Familiarity with protocols: TCP/UDP; HTTP, FTP, ICMP, ARP, DNS</li>
+                <li>Packet analysis with Wireshark</li>
                 <li>LAN management, subnetting</li>
                 <li>App deployment: AWS, Heroku; Ansible, Travis CI</li>
               </ul>
@@ -97,7 +95,7 @@ export default function Home() {
                 <li>Experience with programming languages: Python, JavaScript, Ruby, C, BASH</li>
                 <li>Full-stack application development: Next.js, React, MERN Stack, SCSS, Tailwind</li>
                 <li>Scripting in Python, BASH</li>
-                <li>Data structures and algorithms</li>
+                <li>Hands-on experience with various data structures and algorithms</li>
                 <li>TDD, test suites with RSpec and Jest</li>
                 <li>VCS: Git, GitHub</li>
               </ul>
